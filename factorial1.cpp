@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-int i,n,fact=1;
-cout<<"enter value of n";
-cin>>n;
-for(i=1;i<=n;i++)
+int i,a,fact=1;
+cout<<"enter value of a";
+cin>>a;
+for(i=1;i<=a;i++)
 {
 fact=fact*i;
 }
