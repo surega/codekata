@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main() 
+{
     int romanToInt(string s) 
         int r = 0;
         map<char, int> roman;
