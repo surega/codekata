@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-	int Arr[100],n,i,small,large;
+	int Arr[10],n,i,small,large;
 
-	cout<<"Enter number of elements you want to insert ";
+	cout<<"Enter number of elements ";
 	cin>>n;
 
 	for(i=0;i<n;i++)
