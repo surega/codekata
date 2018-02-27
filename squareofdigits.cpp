@@ -1,11 +1,10 @@
-#include<stdio.h>
-#include<conio.h>
+#include<iostream>
 #include<math.h>
-main()
+int main()
 {
  int n,a=0,r,q;
- printf("Enter the number to be tested: ");
- scanf("%d",&n);
+cout<<"Enter the number to be tested: ";
+cin>>n;
  q=n;
  do
  {
@@ -14,6 +13,6 @@ main()
       q=q/10;
  }
  while(q%10!=0);
- printf("%d",a);
- getch();
+ cout<<a;
+
 }
